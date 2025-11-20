@@ -1,24 +1,41 @@
-# Python cache files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-*.pyc
-*.pyo
-*.pyd
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Virtual environments
+# Virtual Environment
 venv/
-env/
 ENV/
+env/
 .venv
 
-# IDE files
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+
+# OS
 .DS_Store
+Thumbs.db
 
 # Flask
 instance/
@@ -31,13 +48,5 @@ instance/
 # Logs
 *.log
 
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-
+# Render
+.render/
